@@ -32,3 +32,42 @@
 @media(max-width:600px){
   .portrait-frame img{object-position:center 12%}
 }
+/* ===== AJUSTE HERO SIN FOTO · MANTENER ESTILO CLARO ===== */
+
+/* Ocultar foto y cita lateral del hero */
+.hero-card,
+.portrait-frame,
+.portrait-placeholder,
+.hero-card blockquote {
+  display: none !important;
+}
+
+/* Hero a una sola columna */
+.hero-grid {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 32px !important;
+  align-items: start !important;
+}
+
+/* Mantener el hero claro */
+.hero {
+  background:
+    radial-gradient(circle at 78% 20%, rgba(91, 91, 214, 0.10), transparent 33%),
+    linear-gradient(180deg, #fff, #fbfbfd) !important;
+}
+
+/* Dar más aire al texto ahora que no hay foto */
+.hero-lede {
+  max-width: 760px !important;
+}
+
+/* Mantener stats bien alineados sin la columna derecha */
+.stats {
+  max-width: 760px !important;
+}
+
+/* En desktop, que el contenido no se vea pegado ni demasiado ancho */
+.hero .wrap {
+  max-width: 1180px !important;
+}
