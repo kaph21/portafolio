@@ -1,0 +1,6 @@
+Coloca aquí los PDF descargables.
+
+Ejemplo:
+7-principios-del-testing.pdf
+
+La página resources/7-principios-del-testing.html ya apunta a ese nombre.
