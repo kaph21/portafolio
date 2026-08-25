@@ -71,3 +71,33 @@
 .hero .wrap {
   max-width: 1180px !important;
 }
+.hero-content {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 32px !important;
+  align-items: start !important;
+}
+
+/* Por si en otra versión quedó alguna imagen del hero */
+.hero-card,
+.portrait-frame,
+.portrait-placeholder,
+.hero-card blockquote {
+  display: none !important;
+}
+
+/* Mantener estilo claro original */
+.hero {
+  background:
+    radial-gradient(circle at 78% 20%, rgba(91, 91, 214, 0.10), transparent 33%),
+    linear-gradient(180deg, #fff, #fbfbfd) !important;
+}
+
+/* Ajustar ancho del texto */
+.hero-lede {
+  max-width: 760px !important;
+}
+
+.stats {
+  max-width: 760px !important;
+}
