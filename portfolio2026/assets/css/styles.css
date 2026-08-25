@@ -101,3 +101,26 @@
 .stats {
   max-width: 760px !important;
 }
+/* ===== HERO SIN FOTO · ESTILO CLARO ===== */
+
+.hero-grid {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  gap: 32px !important;
+  align-items: start !important;
+}
+
+.hero-card,
+.portrait-frame,
+.portrait-placeholder,
+.hero-card blockquote {
+  display: none !important;
+}
+
+.hero-lede {
+  max-width: 760px !important;
+}
+
+.stats {
+  max-width: 760px !important;
+}
