@@ -9,6 +9,36 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
+ <link rel="stylesheet" href="assets/css/styles.css">
+
+<style>
+  /* FORZAR HERO SIN FOTO */
+  .hero-card,
+  .portrait-frame,
+  .portrait-placeholder,
+  .hero-card blockquote,
+  .hero img,
+  .hero picture,
+  .hero figure,
+  .hero aside {
+    display: none !important;
+    visibility: hidden !important;
+  }
+
+  .hero-grid,
+  .hero-content {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+    align-items: start !important;
+  }
+
+  .hero-lede,
+  .stats {
+    max-width: 760px !important;
+  }
+</style>
+</style>
 </head>
 <body>
 <header class="site-header">
